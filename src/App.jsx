@@ -5,7 +5,7 @@ import Navbar from "./componentss/Navbar";
 import Hero from "./componentss/Hero";
 import About from "./componentss/about";
 import Services from "./componentss/services";
-import WhyChoose from "./componentss/whyChoose";
+import WhyChoose from "./componentss/whychoose";
 import AppointmentCTA from "./componentss/AppointmentCTA";
 import Contact from "./componentss/contact";
 import AppointmentForm from "./componentss/AppointmentForm";
