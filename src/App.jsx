@@ -3,13 +3,13 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Navbar from "./componentss/Navbar";
 import Hero from "./componentss/Hero";
-import About from "./componentss/About";
-import Services from "./componentss/Services";
-import WhyChoose from "./componentss/WhyChoose";
+import About from "./componentss/about";
+import Services from "./componentss/services";
+import WhyChoose from "./componentss/whyChoose";
 import AppointmentCTA from "./componentss/AppointmentCTA";
-import Contact from "./componentss/Contact";
+import Contact from "./componentss/contact";
 import AppointmentForm from "./componentss/AppointmentForm";
-import Footer from "./componentss/Footer";
+import Footer from "./componentss/footer";
 import WhatsAppButton from "./componentss/WhatsAppButton";
 function App() {
    useEffect(() => {
