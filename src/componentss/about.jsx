@@ -5,19 +5,9 @@ function About() {
   className="bg-white py-24"
 >
       <div
-  className="max-w-7xl mx-auto px-8 grid lg:grid-cols-2 gap-16 items-center"
+  className="max-w-4xl mx-auto px-8 text-center"
   data-aos="fade-up"
 >
-
-        {/* Left Side - Photo */}
-        <div className="flex justify-center">
-          <img
-            src="/laiba.png"
-            alt="Dr. Laiba Kayani"
-            className="w-[420px] rounded-3xl shadow-2xl"
-          />
-        </div>
-
         {/* Right Side - Content */}
         <div>
 

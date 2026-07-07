@@ -73,36 +73,47 @@ function Hero() {
 
         </div>
 
-        {/* RIGHT SIDE */}
-        <div
-          className="relative flex justify-center items-center"
-          data-aos="fade-left"
-        >
+       {/* RIGHT SIDE */}
+<div
+  className="relative flex justify-center items-center"
+  data-aos="fade-left"
+>
 
-          {/* Decorative Background */}
-          <div className="absolute w-[430px] h-[430px] rounded-full bg-[#DCE8DD] blur-3xl opacity-60"></div>
+  {/* Decorative Circle */}
+  <div className="w-[430px] h-[430px] rounded-full bg-[#DCE8DD] flex items-center justify-center shadow-2xl">
 
-          {/* Doctor Image */}
-          <img
-            src="/laiba.png"
-            alt="Dr. Laiba Kayani"
-            className="relative w-[420px] rounded-[40px] shadow-2xl border-8 border-white"
-          />
+    <div className="text-center px-10">
 
-          {/* Home Visit Card */}
-          <div className="absolute bottom-8 -right-8 bg-white px-6 py-5 rounded-2xl shadow-xl">
+      <h2 className="text-4xl font-bold text-[#2E3A2F]">
+        Dr. Laiba Kayani
+      </h2>
 
-            <h3 className="font-bold text-[#2E3A2F]">
-              🏡 Home Visits
-            </h3>
+      <p className="mt-4 text-lg text-gray-600">
+        Doctor of Physical Therapy
+      </p>
 
-            <p className="text-gray-600 text-sm mt-1">
-              Rawalpindi & Islamabad
-            </p>
+      <p className="mt-2 text-[#6D8B74] font-semibold">
+        Home Physiotherapy Services
+      </p>
 
-          </div>
+    </div>
 
-        </div>
+  </div>
+
+  {/* Home Visit Card */}
+  <div className="absolute bottom-8 -right-8 bg-white px-6 py-5 rounded-2xl shadow-xl">
+
+    <h3 className="font-bold text-[#2E3A2F]">
+      🏡 Home Visits
+    </h3>
+
+    <p className="text-gray-600 text-sm mt-1">
+      Rawalpindi & Islamabad
+    </p>
+
+  </div>
+
+</div>
 
       </div>
     </section>
